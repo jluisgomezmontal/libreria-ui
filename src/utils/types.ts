@@ -12,6 +12,7 @@ export interface CardProps {
   children?: ReactNode;
   borderStyle?: BorderStyle;
   className?: string;
+  footer?: React.ReactNode;
 }
 export interface InputProps extends Omit<InputHTMLAttributes<HTMLInputElement>, "type"> {
   type?: InputType;

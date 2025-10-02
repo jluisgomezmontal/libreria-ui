@@ -7,7 +7,7 @@ const Card: React.FC<CardProps> = ({
   imageSrc,
   header,
   children,
-  footer,
+  footer = false,
   borderStyle = "default",
   className = "",
 }) => {
